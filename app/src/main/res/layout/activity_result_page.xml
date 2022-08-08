@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Result_Page_Activity"
+    android:orientation="vertical"
+    android:background="@drawable/untitled_design__1_"
+    android:layout_gravity="center_horizontal"
+    android:padding="30dp"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="45dp"
+        app:srcCompat="@drawable/ic_trophy"
+        tools:ignore="ImageContrastCheck" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/andika_new_basic"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:text="Conratulations!  "
+        android:textColor="#FFD700 "
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/userCongoName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/andika_new_basic"
+        android:gravity="center_horizontal"
+        android:paddingBottom="20dp"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:text="Amandeep" />
+
+
+    <TextView
+        android:id="@+id/congo_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/grey"
+        tools:text="Your score is 0 out of 6"
+        />
+    <Button
+        android:id="@+id/congo_btn"
+        android:layout_width="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Finish"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+</LinearLayout>
